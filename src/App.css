@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8f0fc, #e0c3fc); /* light purple gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: white;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(128, 0, 128, 0.15); /* subtle purple shadow */
+  text-align: center;
+  width: 100%;
+  max-width: 520px;
+}
+
+.App-header {
+  background-color: transparent;
+  padding: 20px 0;
+  color: #6a1b9a; /* deep purple */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6a1b9a;
+}
+
+.App-link {
+  color: #8e24aa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+.App-logo {
+  height: 100px;
+  animation: App-logo-spin infinite 12s linear;
+  margin-bottom: 20px;
+}
+
+/* Stylish button */
+button {
+  background-color: #8e24aa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 300px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul li {
+  padding: 8px 0;
+  font-size: 1.1rem;
+  color: #4a148c;
+  border-bottom: 1px solid #eee;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
